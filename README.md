@@ -34,18 +34,21 @@ Setelah program berjalan, kamu akan masuk ke antarmuka terminal `quantumdb>`. Be
 Digunakan untuk memasukkan atau memperbarui data.
 
 quantumdb> SIMPAN nama Budi
+
 Sukses: Data berhasil disimpan.
 
 ### 2. Mengambil Data (`AMBIL`)
 Digunakan untuk membaca data berdasarkan kunci (*key*).
 
 quantumdb> AMBIL nama
+
 Hasil: Budi
 
 ### 3. Keluar Aplikasi (`KELUAR`)
 Digunakan untuk menutup sesi database.
 
 quantumdb> KELUAR
+
 Sampai jumpa!
 
 ---
@@ -54,4 +57,4 @@ Sampai jumpa!
 Kontribusi, kritik, dan saran sangat terbuka! Silakan buat *Pull Request* atau buka *Issues* jika kamu memiliki ide menarik untuk pengembangan QuantumDB.
 
 ## 📝 Lisensi
-Proyek ini dilisensikan di bawah (AGPL-3.0 License)[LICENSE].
+Proyek ini dilisensikan di bawah (AGPL-3.0 License (LICENSE)[LICENSE].
