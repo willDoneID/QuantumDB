@@ -1,7 +1,7 @@
 # QuantumDB 🚀
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 [![Language: Rust](https://img.shields.io/badge/Language-Rust-orange.svg?logo=rust)](https://www.rust-lang.org/)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 [![Owner: Wildan Erly](https://img.shields.io/badge/Owner-Wildan_Erly-emerald.svg)](https://github.com/willDoneID)
 
 **QuantumDB** adalah *in-memory database engine* berperforma tinggi yang dibangun menggunakan **Rust**. Uniknya, database ini menggunakan **Query Language berbasis Bahasa Indonesia** untuk interaksi dan manipulasi data.
