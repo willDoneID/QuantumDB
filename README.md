@@ -54,4 +54,4 @@ Sampai jumpa!
 Kontribusi, kritik, dan saran sangat terbuka! Silakan buat *Pull Request* atau buka *Issues* jika kamu memiliki ide menarik untuk pengembangan QuantumDB.
 
 ## 📝 Lisensi
-Proyek ini dilisensikan di bawah AGPL-3.0 License (LICENSE).
+Proyek ini dilisensikan di bawah (AGPL-3.0 License)[LICENSE].
