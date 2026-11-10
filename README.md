@@ -15,9 +15,43 @@ Karena menggunakan struktur data *in-memory* (`HashMap` di Rust) tanpa overhead 
 
 ## 🛠️ Cara Instalasi & Menjalankan
 
-Pastikan kamu sudah menginstal **Rust** dan **Cargo** di komputer kamu. Jika belum, instal melalui [rustup.rs](https://rustup.rs/).
+Pastikan kamu sudah menginstal **Rust** dan **Cargo** di komputer kamu. Jika belum, instal melalui https://rustup.rs/
 
 1. **Clone repository ini:**
-   ```bash
    git clone https://github.com/willDoneID/QuantumDB.git
-   cd QuantumDB
+   cd quantumdb
+
+2. **Jalankan program dalam mode release (untuk performa optimal):**
+   cargo run --release
+
+---
+
+## 📖 Cara Penggunaan (Syntax)
+
+Setelah program berjalan, kamu akan masuk ke antarmuka terminal `quantumdb>`. Berikut adalah perintah dasar yang didukung saat ini:
+
+### 1. Menyimpan Data (`SIMPAN`)
+Digunakan untuk memasukkan atau memperbarui data.
+
+quantumdb> SIMPAN nama Budi
+Sukses: Data berhasil disimpan.
+
+### 2. Mengambil Data (`AMBIL`)
+Digunakan untuk membaca data berdasarkan kunci (*key*).
+
+quantumdb> AMBIL nama
+Hasil: Budi
+
+### 3. Keluar Aplikasi (`KELUAR`)
+Digunakan untuk menutup sesi database.
+
+quantumdb> KELUAR
+Sampai jumpa!
+
+---
+
+## 🤝 Kontribusi
+Kontribusi, kritik, dan saran sangat terbuka! Silakan buat *Pull Request* atau buka *Issues* jika kamu memiliki ide menarik untuk pengembangan QuantumDB.
+
+## 📝 Lisensi
+Proyek ini dilisensikan di bawah MIT License (LICENSE).
