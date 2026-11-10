@@ -1,60 +1,75 @@
 # QuantumDB 🚀
 
-QuantumDB adalah proyek database engine *in-memory* sederhana yang dibuat menggunakan bahasa pemrograman **Rust** untuk mencapai performa *read* dan *write* yang tinggi, dengan keunikan menggunakan **Query Language berbasis Bahasa Indonesia**. 
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
+[![Language: Rust](https://img.shields.io/badge/Language-Rust-orange.svg?logo=rust)](https://www.rust-lang.org/)
+[![Owner: Wildan Erly](https://img.shields.io/badge/Owner-Wildan_Erly-emerald.svg)](https://github.com/willDoneID)
 
-Proyek ini dibangun sebagai sarana pembelajaran untuk memahami arsitektur penyimpanan data, manajemen memori, dan pembuatan parser dari dasar.
+**QuantumDB** adalah *in-memory database engine* berperforma tinggi yang dibangun menggunakan **Rust**. Uniknya, database ini menggunakan **Query Language berbasis Bahasa Indonesia** untuk interaksi dan manipulasi data.
+
+Proyek ini merupakan bagian dari ekosistem **Will Done Project (`willDoneID`)** — diarsitekturi oleh **Wildan Erly** sebagai sarana eksplorasi mendalam terkait arsitektur penyimpanan data, efisiensi manajemen memori, dan pembuatan parser dari dasar.
 
 ---
 
-## ⚡ Perkiraan Performa (Benchmarks)
-Karena menggunakan struktur data *in-memory* (`HashMap` di Rust) tanpa overhead jaringan yang kompleks, QuantumDB dirancang untuk memiliki performa yang sangat cepat:
-* **Write (SIMPAN):** ~1.5 - 2 juta operasi per detik (tergantung spesifikasi hardware).
-* **Read (AMBIL):** ~3 - 5 juta operasi per detik (pencarian berbasis *hash O(1)*).
+## ⚡ Estimasi Performa (Benchmarks)
+
+Mengoptimalkan keunggulan zero-cost abstraction dan keamanan memori dari Rust (`std::collections::HashMap`), QuantumDB dirancang untuk kecepatan eksekusi ultra-rendah:
+
+- ✍️ **Write (`SIMPAN`):** `~1.5 - 2.0 Juta OPS` (tergantung spesifikasi perangkat keras)
+- 📖 **Read (`AMBIL`):** `~3.0 - 5.0 Juta OPS` (pencarian berbasis *Hash Table* $O(1)$)
 
 ---
 
 ## 🛠️ Cara Instalasi & Menjalankan
 
-Pastikan kamu sudah menginstal **Rust** dan **Cargo** di komputer kamu. Jika belum, instal melalui https://rustup.rs/
+Pastikan kamu sudah memasang **Rust** dan **Cargo**. Jika belum, unduh melalui [rustup.rs](https://rustup.rs/).
 
-1. **Clone repository ini:**
+1. **Clone repositori ini:**
+   ```bash
    git clone https://github.com/willDoneID/QuantumDB.git
-   cd quantumdb
+   cd QuantumDB
+   ```
 
-2. **Jalankan program dalam mode release (untuk performa optimal):**
+2. **Jalankan dalam mode *release* (untuk performa optimal):**
+   ```bash
    cargo run --release
+   ```
 
 ---
 
-## 📖 Cara Penggunaan (Syntax)
+## 📖 Sintaks Query (Bahasa Indonesia)
 
-Setelah program berjalan, kamu akan masuk ke antarmuka terminal `quantumdb>`. Berikut adalah perintah dasar yang didukung saat ini:
+Setelah masuk ke antarmuka terminal `quantumdb>`, kamu bisa menggunakan perintah berikut:
 
 ### 1. Menyimpan Data (`SIMPAN`)
-Digunakan untuk memasukkan atau memperbarui data.
-
+Digunakan untuk memasukkan atau memperbarui nilai berdasarkan kunci (*key*).
+```text
 quantumdb> SIMPAN nama Budi
-
-Sukses: Data berhasil disimpan.
+[SUKSES] Data berhasil disimpan.
+```
 
 ### 2. Mengambil Data (`AMBIL`)
-Digunakan untuk membaca data berdasarkan kunci (*key*).
-
+Digunakan untuk membaca nilai data berdasarkan kunci (*key*).
+```text
 quantumdb> AMBIL nama
-
-Hasil: Budi
+[HASIL] Budi
+```
 
 ### 3. Keluar Aplikasi (`KELUAR`)
-Digunakan untuk menutup sesi database.
-
+Digunakan untuk mengakhiri sesi interaktif database.
+```text
 quantumdb> KELUAR
-
 Sampai jumpa!
+```
 
 ---
 
 ## 🤝 Kontribusi
-Kontribusi, kritik, dan saran sangat terbuka! Silakan buat *Pull Request* atau buka *Issues* jika kamu memiliki ide menarik untuk pengembangan QuantumDB.
+
+Kontribusi, kritik, dan gagasan baru sangat terbuka! Silakan buat *Pull Request* atau buka *Issue* di repositori ini.
+
+---
 
 ## 📝 Lisensi
-Proyek ini dilisensikan di bawah (AGPL-3.0 License (LICENSE)[LICENSE].
+
+Proyek ini dirilis di bawah lisensi [GNU Affero General Public License v3.0 (AGPL-3.0)](LICENSE).  
+Copyright (c) 2024–2026 **Wildan Erly** (Will Done Project).
