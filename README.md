@@ -65,7 +65,7 @@ Sampai jumpa!
 
 ## 🤝 Kontribusi
 
-Kontribusi, kritik, dan gagasan baru sangat terbuka! Silakan buat *Pull Request* atau buka *Issue* di repositori ini.
+Proyek ini dikembangkan secara mandiri dengan bantuan kecerdasan buatan (AI). Kontribusi, kritik, maupun saran sangat terbuka melalui Pull Requests atau Issues di GitHub!
 
 ---
 
