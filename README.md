@@ -72,4 +72,4 @@ Kontribusi, kritik, dan gagasan baru sangat terbuka! Silakan buat *Pull Request*
 ## 📝 Lisensi
 
 Proyek ini dirilis di bawah lisensi [GNU Affero General Public License v3.0 (AGPL-3.0)](LICENSE).  
-Copyright (c) 2024–2026 **Wildan Erly** (Will Done Project).
+Copyright (c) 2026 **Wildan Erly** (Will Done Project).
